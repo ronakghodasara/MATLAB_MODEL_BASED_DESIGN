@@ -1,0 +1,704 @@
+Archive member included because of file (symbol)
+
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (exit)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (__libc_init_array)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o (memset)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+                              syscalls_stm32f4xx.o (errno)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o) (_free_r)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o) (__malloc_free_list)
+c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+                              c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+Push_Button_mode_M_
+                    0x4               Push_Button_mode.o
+Button_Press_Count  0x1               Push_Button_mode.o
+schdl_counter_max   0x4               SysTickScheduler.o
+schdl_counter       0x4               SysTickScheduler.o
+Push_Button_mode_DW
+                    0x1               Push_Button_mode.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .data          0x00000000        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .text          0x00000000        0x0 Push_Button_mode.o
+ .data          0x00000000        0x0 Push_Button_mode.o
+ .bss           0x00000000        0x0 Push_Button_mode.o
+ .text          0x00000000        0x0 Push_Button_mode_data.o
+ .data          0x00000000        0x0 Push_Button_mode_data.o
+ .bss           0x00000000        0x0 Push_Button_mode_data.o
+ .text          0x00000000        0x0 stm32f4xx_gpio.o
+ .data          0x00000000        0x0 stm32f4xx_gpio.o
+ .bss           0x00000000        0x0 stm32f4xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000      0x120 stm32f4xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x34 stm32f4xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x44 stm32f4xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x1c stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x34 stm32f4xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x1c stm32f4xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0x1c stm32f4xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0x1c stm32f4xx_gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c stm32f4xx_gpio.o
+ .text.GPIO_ToggleBits
+                0x00000000       0x24 stm32f4xx_gpio.o
+ .text.GPIO_PinAFConfig
+                0x00000000       0x90 stm32f4xx_gpio.o
+ .text          0x00000000        0x0 stm32f4xx_rcc.o
+ .data          0x00000000        0x0 stm32f4xx_rcc.o
+ .bss           0x00000000        0x0 stm32f4xx_rcc.o
+ .data.APBAHBPrescTable
+                0x00000000       0x10 stm32f4xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x50 stm32f4xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x24 stm32f4xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 stm32f4xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 stm32f4xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_PLLI2SConfig
+                0x00000000       0x28 stm32f4xx_rcc.o
+ .text.RCC_PLLI2SCmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_MCO1Config
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_MCO2Config
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x38 stm32f4xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 stm32f4xx_rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 stm32f4xx_rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 stm32f4xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x154 stm32f4xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x5c stm32f4xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text.RCC_I2SCLKConfig
+                0x00000000       0x1c stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphResetCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphResetCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphResetCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB1PeriphClockLPModeCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB2PeriphClockLPModeCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_AHB3PeriphClockLPModeCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_APB1PeriphClockLPModeCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_APB2PeriphClockLPModeCmd
+                0x00000000       0x3c stm32f4xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x4c stm32f4xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x74 stm32f4xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c stm32f4xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x38 stm32f4xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 stm32f4xx_rcc.o
+ .text          0x00000000        0x0 stm32f4xx_gpio_wrapper.o
+ .data          0x00000000        0x0 stm32f4xx_gpio_wrapper.o
+ .bss           0x00000000        0x0 stm32f4xx_gpio_wrapper.o
+ .text.MW_RCC_AHB1PeriphClockCmd
+                0x00000000       0x28 stm32f4xx_gpio_wrapper.o
+ .text.MW_GPIO_ToggleBits
+                0x00000000       0x3c stm32f4xx_gpio_wrapper.o
+ .text          0x00000000        0x0 blapp_support.o
+ .data          0x00000000        0x0 blapp_support.o
+ .bss           0x00000000        0x0 blapp_support.o
+ .text.bootloaderBackgroundTask
+                0x00000000        0xc blapp_support.o
+ .text          0x00000000        0x0 startup_stm32f4xx.o
+ .data          0x00000000        0x0 startup_stm32f4xx.o
+ .bss           0x00000000        0x0 startup_stm32f4xx.o
+ .text          0x00000000        0x0 syscalls_stm32f4xx.o
+ .data          0x00000000        0x0 syscalls_stm32f4xx.o
+ .bss           0x00000000        0x0 syscalls_stm32f4xx.o
+ .text._close   0x00000000       0x18 syscalls_stm32f4xx.o
+ .text._fstat   0x00000000       0x20 syscalls_stm32f4xx.o
+ .text._isatty  0x00000000       0x18 syscalls_stm32f4xx.o
+ .text._lseek   0x00000000       0x1c syscalls_stm32f4xx.o
+ .text._open    0x00000000       0x1c syscalls_stm32f4xx.o
+ .text._read    0x00000000       0x1c syscalls_stm32f4xx.o
+ .bss.heap_end  0x00000000        0x4 syscalls_stm32f4xx.o
+ .text._sbrk    0x00000000       0x68 syscalls_stm32f4xx.o
+ .text._write   0x00000000       0x1c syscalls_stm32f4xx.o
+ .text          0x00000000        0x0 stm32f4xx_init_board.o
+ .data          0x00000000        0x0 stm32f4xx_init_board.o
+ .bss           0x00000000        0x0 stm32f4xx_init_board.o
+ .text          0x00000000        0x0 system_stm32f4xx.o
+ .data          0x00000000        0x0 system_stm32f4xx.o
+ .bss           0x00000000        0x0 system_stm32f4xx.o
+ .text          0x00000000        0x0 SysTickScheduler.o
+ .data          0x00000000        0x0 SysTickScheduler.o
+ .bss           0x00000000        0x0 SysTickScheduler.o
+ .text          0x00000000        0x0 arm_cortex_m_multitasking.o
+ .data          0x00000000        0x0 arm_cortex_m_multitasking.o
+ .bss           0x00000000        0x0 arm_cortex_m_multitasking.o
+ .text          0x00000000        0x0 ert_main.o
+ .data          0x00000000        0x0 ert_main.o
+ .bss           0x00000000        0x0 ert_main.o
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xb4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000000       0x5c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ COMMON         0x00000000        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+ .text._free_r  0x00000000       0x88 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000       0x2c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .text._malloc_r
+                0x00000000       0xac c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000       0x2c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .eh_frame      0x00000000        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .text          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ .data          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ .bss           0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00100000         xr
+SRAM             0x20000000         0x00020000         xrw
+CCMRAM           0x10000000         0x00010000         rw
+BACKUPRAM        0x40024000         0x00001000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+LOAD Push_Button_mode.o
+LOAD Push_Button_mode_data.o
+LOAD stm32f4xx_gpio.o
+LOAD stm32f4xx_rcc.o
+LOAD stm32f4xx_gpio_wrapper.o
+LOAD blapp_support.o
+LOAD startup_stm32f4xx.o
+LOAD syscalls_stm32f4xx.o
+LOAD stm32f4xx_init_board.o
+LOAD system_stm32f4xx.o
+LOAD SysTickScheduler.o
+LOAD arm_cortex_m_multitasking.o
+LOAD ert_main.o
+LOAD C:/MATLAB/SupportPackages/CMSIS_r4p3/CMSIS/Lib/GCC/libarm_cortexM4lf_math.a
+LOAD C:/MATLAB/SupportPackages/CMSIS_r4p3/CMSIS/RTOS/RTX/LIB/GCC/libRTX_CM4.a
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libstdc++_nano.a
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libm.a
+START GROUP
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a
+END GROUP
+START GROUP
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu\libgcc.a
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a
+END GROUP
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+LOAD c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+
+.text           0x08000000      0xcd8
+ *(.vectors)
+ .vectors       0x08000000      0x188 startup_stm32f4xx.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text          0x08000188       0x5c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .text          0x080001e4       0x74 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x080001e4                _start
+                0x080001e4                _mainCRTStartup
+ .text.Push_Button_mode_step
+                0x08000258       0xb8 Push_Button_mode.o
+                0x08000258                Push_Button_mode_step
+ .text.Push_Button_mode_initialize
+                0x08000310       0x80 Push_Button_mode.o
+                0x08000310                Push_Button_mode_initialize
+ .text.Push_Button_mode_terminate
+                0x08000390        0xc Push_Button_mode.o
+                0x08000390                Push_Button_mode_terminate
+ .text.GPIO_Init
+                0x0800039c      0x11c stm32f4xx_gpio.o
+                0x0800039c                GPIO_Init
+ .text.GPIO_ReadInputDataBit
+                0x080004b8       0x34 stm32f4xx_gpio.o
+                0x080004b8                GPIO_ReadInputDataBit
+ .text.GPIO_WriteBit
+                0x080004ec       0x30 stm32f4xx_gpio.o
+                0x080004ec                GPIO_WriteBit
+ .text.RCC_AHB1PeriphClockCmd
+                0x0800051c       0x3c stm32f4xx_rcc.o
+                0x0800051c                RCC_AHB1PeriphClockCmd
+ .text.GpioClockEnableBit
+                0x08000558       0x20 stm32f4xx_gpio_wrapper.o
+                0x08000558                GpioClockEnableBit
+ .text.MW_GpioInit
+                0x08000578       0x5c stm32f4xx_gpio_wrapper.o
+                0x08000578                MW_GpioInit
+ .text.MW_GPIO_ReadInputDataBit
+                0x080005d4       0x38 stm32f4xx_gpio_wrapper.o
+                0x080005d4                MW_GPIO_ReadInputDataBit
+ .text.MW_GPIO_WriteBit
+                0x0800060c       0x3c stm32f4xx_gpio_wrapper.o
+                0x0800060c                MW_GPIO_WriteBit
+ .text.bootloaderInit
+                0x08000648        0xc blapp_support.o
+                0x08000648                bootloaderInit
+ .text.Default_ResetHandler
+                0x08000654       0x5c startup_stm32f4xx.o
+                0x08000654                Reset_Handler
+                0x08000654                Default_ResetHandler
+ .text.Default_Handler
+                0x080006b0        0x8 startup_stm32f4xx.o
+                0x080006b0                RTC_Alarm_IRQHandler
+                0x080006b0                HASH_RNG_IRQHandler
+                0x080006b0                EXTI2_IRQHandler
+                0x080006b0                TIM8_CC_IRQHandler
+                0x080006b0                DebugMon_Handler
+                0x080006b0                TIM1_CC_IRQHandler
+                0x080006b0                DMA2_Stream5_IRQHandler
+                0x080006b0                HardFault_Handler
+                0x080006b0                DMA1_Stream5_IRQHandler
+                0x080006b0                PVD_IRQHandler
+                0x080006b0                SDIO_IRQHandler
+                0x080006b0                TAMP_STAMP_IRQHandler
+                0x080006b0                PendSV_Handler
+                0x080006b0                NMI_Handler
+                0x080006b0                CAN2_RX1_IRQHandler
+                0x080006b0                EXTI3_IRQHandler
+                0x080006b0                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080006b0                TIM1_UP_TIM10_IRQHandler
+                0x080006b0                TIM8_UP_TIM13_IRQHandler
+                0x080006b0                I2C3_ER_IRQHandler
+                0x080006b0                EXTI0_IRQHandler
+                0x080006b0                I2C2_EV_IRQHandler
+                0x080006b0                DMA1_Stream2_IRQHandler
+                0x080006b0                CAN1_RX0_IRQHandler
+                0x080006b0                FPU_IRQHandler
+                0x080006b0                OTG_HS_WKUP_IRQHandler
+                0x080006b0                UsageFault_Handler
+                0x080006b0                CAN2_SCE_IRQHandler
+                0x080006b0                DMA2_Stream2_IRQHandler
+                0x080006b0                SPI1_IRQHandler
+                0x080006b0                TIM6_DAC_IRQHandler
+                0x080006b0                TIM1_BRK_TIM9_IRQHandler
+                0x080006b0                DCMI_IRQHandler
+                0x080006b0                CAN2_RX0_IRQHandler
+                0x080006b0                DMA2_Stream3_IRQHandler
+                0x080006b0                USART6_IRQHandler
+                0x080006b0                USART3_IRQHandler
+                0x080006b0                CRYP_IRQHandler
+                0x080006b0                CAN1_RX1_IRQHandler
+                0x080006b0                UART5_IRQHandler
+                0x080006b0                DMA2_Stream0_IRQHandler
+                0x080006b0                TIM4_IRQHandler
+                0x080006b0                I2C1_EV_IRQHandler
+                0x080006b0                DMA1_Stream6_IRQHandler
+                0x080006b0                DMA1_Stream1_IRQHandler
+                0x080006b0                UART4_IRQHandler
+                0x080006b0                TIM3_IRQHandler
+                0x080006b0                RCC_IRQHandler
+                0x080006b0                TIM8_BRK_TIM12_IRQHandler
+                0x080006b0                EXTI15_10_IRQHandler
+                0x080006b0                ADC_IRQHandler
+                0x080006b0                DMA1_Stream7_IRQHandler
+                0x080006b0                TIM7_IRQHandler
+                0x080006b0                CAN2_TX_IRQHandler
+                0x080006b0                TIM5_IRQHandler
+                0x080006b0                DMA2_Stream7_IRQHandler
+                0x080006b0                I2C3_EV_IRQHandler
+                0x080006b0                EXTI9_5_IRQHandler
+                0x080006b0                RTC_WKUP_IRQHandler
+                0x080006b0                ETH_WKUP_IRQHandler
+                0x080006b0                SPI2_IRQHandler
+                0x080006b0                OTG_HS_EP1_IN_IRQHandler
+                0x080006b0                MemManage_Handler
+                0x080006b0                DMA1_Stream0_IRQHandler
+                0x080006b0                CAN1_TX_IRQHandler
+                0x080006b0                EXTI4_IRQHandler
+                0x080006b0                FSMC_IRQHandler
+                0x080006b0                ETH_IRQHandler
+                0x080006b0                OTG_HS_EP1_OUT_IRQHandler
+                0x080006b0                WWDG_IRQHandler
+                0x080006b0                TIM2_IRQHandler
+                0x080006b0                OTG_FS_WKUP_IRQHandler
+                0x080006b0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080006b0                OTG_HS_IRQHandler
+                0x080006b0                EXTI1_IRQHandler
+                0x080006b0                USART2_IRQHandler
+                0x080006b0                I2C2_ER_IRQHandler
+                0x080006b0                DMA2_Stream1_IRQHandler
+                0x080006b0                CAN1_SCE_IRQHandler
+                0x080006b0                FLASH_IRQHandler
+                0x080006b0                DMA2_Stream4_IRQHandler
+                0x080006b0                BusFault_Handler
+                0x080006b0                USART1_IRQHandler
+                0x080006b0                OTG_FS_IRQHandler
+                0x080006b0                SPI3_IRQHandler
+                0x080006b0                DMA1_Stream4_IRQHandler
+                0x080006b0                I2C1_ER_IRQHandler
+                0x080006b0                DMA2_Stream6_IRQHandler
+                0x080006b0                DMA1_Stream3_IRQHandler
+ .text._exit    0x080006b8        0xc syscalls_stm32f4xx.o
+                0x080006b8                _exit
+ .text.NVIC_SetPriority
+                0x080006c4       0x54 stm32f4xx_init_board.o
+ .text.stm32f4xx_init_board
+                0x08000718       0x20 stm32f4xx_init_board.o
+                0x08000718                stm32f4xx_init_board
+ .text.SystemInit
+                0x08000738       0x68 system_stm32f4xx.o
+                0x08000738                SystemInit
+ .text.SystemCoreClockUpdate
+                0x080007a0       0xf8 system_stm32f4xx.o
+                0x080007a0                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x08000898       0xf4 system_stm32f4xx.o
+ .text.NVIC_SetPriority
+                0x0800098c       0x54 SysTickScheduler.o
+ .text.SysTick_Config
+                0x080009e0       0x44 SysTickScheduler.o
+ .text.SysTick_Isr
+                0x08000a24       0x40 SysTickScheduler.o
+ .text.SysTick_Handler
+                0x08000a64       0x10 SysTickScheduler.o
+                0x08000a64                SysTick_Handler
+ .text.ARMCM_SysTick_Config
+                0x08000a74       0x8c SysTickScheduler.o
+                0x08000a74                ARMCM_SysTick_Config
+ .text.arm_cortex_m_call_thread_with_context_switch
+                0x08000b00       0x2c arm_cortex_m_multitasking.o
+                0x08000b00                arm_cortex_m_call_thread_with_context_switch
+ .text.SVC_Handler
+                0x08000b2c       0x38 arm_cortex_m_multitasking.o
+                0x08000b2c                SVC_Handler
+ .text.rt_OneStep
+                0x08000b64       0x48 ert_main.o
+                0x08000b64                rt_OneStep
+ .text.main     0x08000bac       0x84 ert_main.o
+                0x08000bac                main
+ .text.exit     0x08000c30       0x28 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+                0x08000c30                exit
+ .text.__libc_init_array
+                0x08000c58       0x4c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+                0x08000c58                __libc_init_array
+ .text.memset   0x08000ca4       0x10 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+                0x08000ca4                memset
+ *(.init)
+ .init          0x08000cb4        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x08000cb4                _init
+ .init          0x08000cb8        0x8 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *(.fini)
+ .fini          0x08000cc0        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+                0x08000cc0                _fini
+ .fini          0x08000cc4        0x8 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.Push_Button_mode_M
+                0x08000ccc        0x4 Push_Button_mode.o
+                0x08000ccc                Push_Button_mode_M
+ .rodata.str1.1
+                0x08000cd0        0x2 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+ *fill*         0x08000cd2        0x2 
+ .rodata._global_impure_ptr
+                0x08000cd4        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+                0x08000cd4                _global_impure_ptr
+ *(.eh_fram e*)
+
+.eh_frame       0x08000cd8        0x0
+ .eh_frame      0x08000cd8        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.glue_7         0x08000cd8        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08000cd8        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08000cd8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08000cd8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08000cd8        0x0
+ .iplt          0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08000cd8                __exidx_start = .
+
+.ARM.exidx      0x08000cd8        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x08000cd8        0x8 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+                0x08000ce0                __exidx_end = .
+
+.rel.dyn        0x08000ce0        0x0
+ .rel.iplt      0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+                0x08000ce0                . = ALIGN (0x4)
+                0x08000ce0                _etext = .
+                0x08000ce0                _sidata = .
+
+.data           0x20000000       0xac load address 0x08000ce0
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data.Push_Button_mode_P
+                0x20000000        0x8 Push_Button_mode_data.o
+                0x20000000                Push_Button_mode_P
+ .data.GPIO_base_array
+                0x20000008       0x24 stm32f4xx_gpio_wrapper.o
+ .data.SystemCoreClock
+                0x2000002c        0x4 system_stm32f4xx.o
+                0x2000002c                SystemCoreClock
+ .data.AHBPrescTable
+                0x20000030       0x10 system_stm32f4xx.o
+                0x20000030                AHBPrescTable
+ .data.impure_data
+                0x20000040       0x60 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+                0x200000a0                . = ALIGN (0x4)
+                0x200000a0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x200000a0                PROVIDE (__preinit_array_end, .)
+                0x200000a0                . = ALIGN (0x4)
+                0x200000a0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x200000a0        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+                0x200000a4                PROVIDE (__init_array_end, .)
+                0x200000a4                . = ALIGN (0x4)
+                0x200000a4                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x200000a4        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+                0x200000a8                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+ .jcr           0x200000a8        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .jcr           0x200000a8        0x4 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+                0x200000ac                . = ALIGN (0x4)
+                0x200000ac                __data_end__ = .
+                0x200000ac                _edata = __data_end__
+
+.igot.plt       0x200000ac        0x0 load address 0x08000d8c
+ .igot.plt      0x00000000        0x0 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+
+.bss            0x200000ac       0x38 load address 0x08000d8c
+                0x200000ac                . = ALIGN (0x4)
+                0x200000ac                _sbss = .
+                0x200000ac                __bss_start__ = _sbss
+ *(.bss .bss.*)
+ .bss           0x200000ac       0x1c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .bss.IsrOverrun
+                0x200000c8        0x4 ert_main.o
+                0x200000c8                IsrOverrun
+ .bss.OverrunFlag
+                0x200000cc        0x1 ert_main.o
+ *(COMMON)
+ *fill*         0x200000cd        0x3 
+ COMMON         0x200000d0        0x9 Push_Button_mode.o
+                0x200000d0                Push_Button_mode_M_
+                0x200000d4                Button_Press_Count
+                0x200000d8                Push_Button_mode_DW
+ *fill*         0x200000d9        0x3 
+ COMMON         0x200000dc        0x8 SysTickScheduler.o
+                0x200000dc                schdl_counter_max
+                0x200000e0                schdl_counter
+                0x200000e4                . = ALIGN (0x4)
+                0x200000e4                _ebss = .
+                0x200000e4                __bss_end__ = _ebss
+
+.co_stack       0x10000000     0x2040
+                0x10000000                . = ALIGN (0x8)
+                0x10000000                __stack_end__ = .
+ *(.co_stack .co_stack.*)
+ .co_stack      0x10000000     0x2040 startup_stm32f4xx.o
+                0x10000000                pulStack
+                0x10002040                __stack_start__ = .
+                0x10002040                . = ALIGN (0x8)
+                0x10002040                _end_ccmram = .
+                0x10002040                PROVIDE (_sheap, _end_ccmram)
+                0x10010000                PROVIDE (_eheap, ALIGN ((ORIGIN (CCMRAM) + 0x10000), 0x8))
+                0x10002040                PROVIDE (__stack, __stack_start__)
+OUTPUT(../Push_Button_mode.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x30
+ .ARM.attributes
+                0x00000000       0x22 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crti.o
+ .ARM.attributes
+                0x00000022       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x20 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu/crt0.o
+ .ARM.attributes
+                0x00000076       0x39 Push_Button_mode.o
+ .ARM.attributes
+                0x000000af       0x39 Push_Button_mode_data.o
+ .ARM.attributes
+                0x000000e8       0x39 stm32f4xx_gpio.o
+ .ARM.attributes
+                0x00000121       0x39 stm32f4xx_rcc.o
+ .ARM.attributes
+                0x0000015a       0x39 stm32f4xx_gpio_wrapper.o
+ .ARM.attributes
+                0x00000193       0x39 blapp_support.o
+ .ARM.attributes
+                0x000001cc       0x39 startup_stm32f4xx.o
+ .ARM.attributes
+                0x00000205       0x39 syscalls_stm32f4xx.o
+ .ARM.attributes
+                0x0000023e       0x39 stm32f4xx_init_board.o
+ .ARM.attributes
+                0x00000277       0x39 system_stm32f4xx.o
+ .ARM.attributes
+                0x000002b0       0x39 SysTickScheduler.o
+ .ARM.attributes
+                0x000002e9       0x39 arm_cortex_m_multitasking.o
+ .ARM.attributes
+                0x00000322       0x39 ert_main.o
+ .ARM.attributes
+                0x0000035b       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000038f       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000003c3       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003f7       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000042b       0x34 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtend.o
+ .ARM.attributes
+                0x0000045f       0x22 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/fpu/crtn.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 Push_Button_mode.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Push_Button_mode_data.o
+ .comment       0x00000000       0x71 stm32f4xx_gpio.o
+ .comment       0x00000000       0x71 stm32f4xx_rcc.o
+ .comment       0x00000000       0x71 stm32f4xx_gpio_wrapper.o
+ .comment       0x00000000       0x71 blapp_support.o
+ .comment       0x00000000       0x71 startup_stm32f4xx.o
+ .comment       0x00000000       0x71 syscalls_stm32f4xx.o
+ .comment       0x00000000       0x71 stm32f4xx_init_board.o
+ .comment       0x00000000       0x71 system_stm32f4xx.o
+ .comment       0x00000000       0x71 SysTickScheduler.o
+ .comment       0x00000000       0x71 arm_cortex_m_multitasking.o
+ .comment       0x00000000       0x71 ert_main.o
+
+.debug_frame    0x00000000       0x74
+ .debug_frame   0x00000000       0x28 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 c:/matlab/supportpackages/r2015b/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/fpu\libc_nano.a(lib_a-memset.o)

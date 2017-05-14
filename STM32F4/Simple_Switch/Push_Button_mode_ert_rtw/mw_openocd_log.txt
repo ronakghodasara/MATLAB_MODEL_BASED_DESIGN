@@ -1,0 +1,30 @@
+GNU ARM Eclipse 64-bits Open On-Chip Debugger 0.9.0-00073-gdd34716-dirty (2015-05-19-09:55)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : The selected transport took over low-level target control. The results might differ compared to plain JTAG/SWD
+adapter speed: 2000 kHz
+adapter_nsrst_delay: 100
+none separate
+srst_only separate srst_nogate srst_open_drain connect_deassert_srst
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : Unable to match requested speed 2000 kHz, using 1800 kHz
+Info : clock speed 1800 kHz
+Info : STLINK v2 JTAG v14 API v2 SWIM v0 VID 0x0483 PID 0x3748
+Info : using stlink api v2
+Info : Target voltage: 2.896991
+Info : stm32f4x.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : accepting 'telnet' connection on tcp/4444
+target state: halted
+target halted due to debug-request, current mode: Thread 
+xPSR: 0x01000000 pc: 0x080006a8 msp: 0x10002040
+Info : device id = 0x10036413
+Info : flash size = 1024kbytes
+flash 'stm32f2x' found at 0x08000000
+auto erase enabled
+target state: halted
+target halted due to breakpoint, current mode: Thread 
+xPSR: 0x61000000 pc: 0x20000042 msp: 0x10002040
+wrote 16384 bytes from file ../Push_Button_mode.elf in 0.889202s (17.994 KiB/s)
+shutdown command invoked
+Info : dropped 'telnet' connection
