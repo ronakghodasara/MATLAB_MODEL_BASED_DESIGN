@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>RTW Report - ert_main.c</title>
+<style> .LN { font-style: italic; color: #888888 } </style>
+<style> .CT { font-style: italic; color: #117755 } </style>
+<style> .PP { font-style: bold;   color: #992211 } </style>
+<style> .KW { font-style: bold;   color: #112266 } </style>
+<style> .DT { font-style: bold;   color: #112266 } </style>
+<link rel="stylesheet" type="text/css" href="rtwreport.css"></link><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script>
+<SCRIPT type="text/javascript" language="JavaScript" src="slwebview.js"></SCRIPT>
+<SCRIPT type="text/javascript" language="JavaScript" src="id_mapping.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="rtwannotate.js"></SCRIPT>
+</head>
+<body bgcolor="#eeeeee" text="#1122aa" onload="try {if (top) { if (top.rtwFileOnLoad) top.rtwFileOnLoad(window.document); else local_onload();}} catch(err) {};if (typeof rtwannotate === 'function') {rtwannotate('ert_main_c_cov.xml');}">
+<p>
+<table border="0" cellspacing="0" cellpadding="6" width="100%%" height="100%%"><tr><td width="100%%" valign="top" bgcolor="#ffffff">
+<h4>File: <a href="../ert_main.c" target="rtwreport_document_frame" id="linkToText_plain">ert_main.c</a></h4>
+<pre id="RTWcode">
+<span><a class="LN" name="1">    1   </a><span class="CT">/*</span>
+</span><span><a class="LN" name="2">    2   </a><span class="CT"> * File: ert_main.c</span>
+</span><span><a class="LN" name="3">    3   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="4">    4   </a><span class="CT"> * Code generated for Simulink model 'Push_Button_EdgeDetection'.</span>
+</span><span><a class="LN" name="5">    5   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="6">    6   </a><span class="CT"> * Model version                  : 1.21</span>
+</span><span><a class="LN" name="7">    7   </a><span class="CT"> * Simulink Coder version         : 8.9 (R2015b) 13-Aug-2015</span>
+</span><span><a class="LN" name="8">    8   </a><span class="CT"> * C/C++ source code generated on : Sun May 14 15:38:40 2017</span>
+</span><span><a class="LN" name="9">    9   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="10">   10   </a><span class="CT"> * Target selection: ert.tlc</span>
+</span><span><a class="LN" name="11">   11   </a><span class="CT"> * Embedded hardware selection: ARM Compatible-&gt;ARM Cortex</span>
+</span><span><a class="LN" name="12">   12   </a><span class="CT"> * Code generation objectives: Unspecified</span>
+</span><span><a class="LN" name="13">   13   </a><span class="CT"> * Validation result: Not run</span>
+</span><span><a class="LN" name="14">   14   </a><span class="CT"> */</span>
+</span><span><a class="LN" name="15">   15   </a>
+</span><span><a class="LN" name="16">   16   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;Push_Button_EdgeDetection.h&quot;</font>
+</span><span><a class="LN" name="17">   17   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;rtwtypes.h&quot;</font>
+</span><span><a class="LN" name="18">   18   </a>
+</span><span><a class="LN" name="19">   19   </a><span class="DT">volatile</span> <span class="DT">int</span> <a name="var_IsrOverrun">IsrOverrun</a> = 0;
+</span><span><a class="LN" name="20">   20   </a><span class="DT">static</span> <a href="rtwtypes_h.html#type_boolean_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_boolean_T');" target="_self"><font color="#1122aa">boolean_T</font></a> <a name="var_OverrunFlag">OverrunFlag</a> = 0;
+</span><span><a class="LN" name="21">   21   </a><span class="DT">void</span> <a name="fcn_rt_OneStep">rt_OneStep</a>(<span class="DT">void</span>)
+</span><span><a class="LN" name="22">   22   </a><b>{</b>
+</span><span><a class="LN" name="23">   23   </a>  <span class="CT">/* Check for overrun. Protect OverrunFlag against preemption */</span>
+</span><span><a class="LN" name="24">   24   </a>  <span class="KW">if</span> (<a href="#var_OverrunFlag" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_OverrunFlag');" target="_self"><font color="#1122aa">OverrunFlag</font></a>++) <b>{</b>
+</span><span><a class="LN" name="25">   25   </a>    <a href="#var_IsrOverrun" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_IsrOverrun');" target="_self"><font color="#1122aa">IsrOverrun</font></a> = 1;
+</span><span><a class="LN" name="26">   26   </a>    <a href="#var_OverrunFlag" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_OverrunFlag');" target="_self"><font color="#1122aa">OverrunFlag</font></a>--;
+</span><span><a class="LN" name="27">   27   </a>    <span class="KW">return</span>;
+</span><span><a class="LN" name="28">   28   </a>  <b>}</b>
+</span><span><a class="LN" name="29">   29   </a>
+</span><span><a class="LN" name="30">   30   </a>  __enable_irq();
+</span><span><a class="LN" name="31">   31   </a>  <a href="Push_Button_EdgeDetection_c.html#fcn_Push_Button_EdgeDetection_step" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_Push_Button_EdgeDetection_step');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_step</font></a>();
+</span><span><a class="LN" name="32">   32   </a>
+</span><span><a class="LN" name="33">   33   </a>  <span class="CT">/* Get model outputs here */</span>
+</span><span><a class="LN" name="34">   34   </a>  __disable_irq();
+</span><span><a class="LN" name="35">   35   </a>  <a href="#var_OverrunFlag" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_OverrunFlag');" target="_self"><font color="#1122aa">OverrunFlag</font></a>--;
+</span><span><a class="LN" name="36">   36   </a><b>}</b>
+</span><span><a class="LN" name="37">   37   </a>
+</span><span><a class="LN" name="38">   38   </a><span class="DT">int</span> <a name="fcn_main">main</a>(<span class="DT">void</span>)
+</span><span><a class="LN" name="39">   39   </a><b>{</b>
+</span><span><a class="LN" name="40">   40   </a>  <span class="DT">volatile</span> <a href="rtwtypes_h.html#type_boolean_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_boolean_T');" target="_self"><font color="#1122aa">boolean_T</font></a> runModel = 1;
+</span><span><a class="LN" name="41">   41   </a>  <span class="DT">float</span> modelBaseRate = 0.1;
+</span><span><a class="LN" name="42">   42   </a>  <span class="DT">float</span> systemClock = 168;
+</span><span><a class="LN" name="43">   43   </a>
+</span><span><a class="LN" name="44">   44   </a><font color="#992211">#</font><span class="PP">ifndef</span> USE_RTX
+</span><span><a class="LN" name="45">   45   </a>
+</span><span><a class="LN" name="46">   46   </a>  __disable_irq();
+</span><span><a class="LN" name="47">   47   </a>
+</span><span><a class="LN" name="48">   48   </a><font color="#992211">#</font><span class="PP">endif</span>
+</span><span><a class="LN" name="49">   49   </a>
+</span><span><a class="LN" name="50">   50   </a>  ;
+</span><span><a class="LN" name="51">   51   </a>  stm32f4xx_init_board();
+</span><span><a class="LN" name="52">   52   </a>  SystemCoreClockUpdate();
+</span><span><a class="LN" name="53">   53   </a>  bootloaderInit();
+</span><span><a class="LN" name="54">   54   </a>  rtmSetErrorStatus(<a href="Push_Button_EdgeDetection_c.html#var_Push_Button_EdgeDetection_M" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Push_Button_EdgeDetection_M');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_M</font></a>, 0);
+</span><span><a class="LN" name="55">   55   </a>  <a href="Push_Button_EdgeDetection_c.html#fcn_Push_Button_EdgeDetection_initialize" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_Push_Button_EdgeDetection_initialize');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_initialize</font></a>();
+</span><span><a class="LN" name="56">   56   </a>  ARMCM_SysTick_Config(modelBaseRate);
+</span><span><a class="LN" name="57">   57   </a>  runModel =
+</span><span><a class="LN" name="58">   58   </a>    rtmGetErrorStatus(<a href="Push_Button_EdgeDetection_c.html#var_Push_Button_EdgeDetection_M" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Push_Button_EdgeDetection_M');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_M</font></a>) == (NULL);
+</span><span><a class="LN" name="59">   59   </a>  __enable_irq();
+</span><span><a class="LN" name="60">   60   </a>  __enable_irq();
+</span><span><a class="LN" name="61">   61   </a>  <span class="KW">while</span> (runModel) <b>{</b>
+</span><span><a class="LN" name="62">   62   </a>    runModel =
+</span><span><a class="LN" name="63">   63   </a>      rtmGetErrorStatus(<a href="Push_Button_EdgeDetection_c.html#var_Push_Button_EdgeDetection_M" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Push_Button_EdgeDetection_M');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_M</font></a>) == (NULL);
+</span><span><a class="LN" name="64">   64   </a>  <b>}</b>
+</span><span><a class="LN" name="65">   65   </a>
+</span><span><a class="LN" name="66">   66   </a>  <span class="CT">/* Disable rt_OneStep() here */</span>
+</span><span><a class="LN" name="67">   67   </a>
+</span><span><a class="LN" name="68">   68   </a>  <span class="CT">/* Terminate model */</span>
+</span><span><a class="LN" name="69">   69   </a>  <a href="Push_Button_EdgeDetection_c.html#fcn_Push_Button_EdgeDetection_terminate" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_Push_Button_EdgeDetection_terminate');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_terminate</font></a>();
+</span><span><a class="LN" name="70">   70   </a>  __disable_irq();
+</span><span><a class="LN" name="71">   71   </a>  <span class="KW">return</span> 0;
+</span><span><a class="LN" name="72">   72   </a><b>}</b>
+</span><span><a class="LN" name="73">   73   </a>
+</span><span><a class="LN" name="74">   74   </a><span class="CT">/*</span>
+</span><span><a class="LN" name="75">   75   </a><span class="CT"> * File trailer for generated code.</span>
+</span><span><a class="LN" name="76">   76   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="77">   77   </a><span class="CT"> * [EOF]</span>
+</span><span><a class="LN" name="78">   78   </a><span class="CT"> */</span>
+</span><span><a class="LN" name="79">   79   </a>
+</span></pre>
+</td></tr></table>
+</p>
+</body>
+</html>

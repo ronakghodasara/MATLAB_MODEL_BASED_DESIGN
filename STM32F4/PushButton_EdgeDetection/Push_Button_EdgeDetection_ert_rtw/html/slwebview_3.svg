@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="canvas" display="inline" height="95%" id="canvas.Push_Button_EdgeDetection:27" original_viewBox="14.00 23.00 672.00 114.00" preserveAspectRatio="xMinYMin meet" viewBox="14.00 23.00 672.00 114.00" width="100%" x="0" y="0" zoomAndPan="disable">
+  <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+    <!--RAWSTRING-->
+    <g id="background" stroke="none" fill-opacity="1" fill="#ffffff">
+      <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,0,0)">
+        <path d="M20,29 L680,29 L680,131 L20,131 L20,29 z" fill-rule="evenodd" vector-effect="none"/>
+      </g>
+      <!--RAWSTRING-->
+    </g>
+    <!--RAWSTRING-->
+    <g id="prop.Push_Button_EdgeDetection:27" class="proptable" display="none" pointer-events="none" extent_Height="16" extent_Width="222.5" preferred_X="5" preferred_Y="5">
+      <rect x="0" y="0" width="222.5" height="16" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+      <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">InputProcessing</text>
+      <text x="71.25" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Columns as channels (frame based)</text>
+      <rect x="0" y="0" width="222.5" height="16" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+    </g>
+    <g id="Push_Button_EdgeDetection:27" linkid="Push_Button_EdgeDetection:27" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+      <title id="title.Push_Button_EdgeDetection:27">Edge Detector</title>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:9" class="proptable" display="none" pointer-events="none" extent_Height="156" extent_Width="129" preferred_X="685" preferred_Y="78">
+          <rect x="0" y="0" width="129" height="156" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Port</text>
+          <text x="71.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+          <rect x="0" y="15" width="129" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">IconDisplay</text>
+          <text x="71.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Port number</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMin</text>
+          <text x="71.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+          <rect x="0" y="43" width="129" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMax</text>
+          <text x="71.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutDataTypeStr</text>
+          <text x="71.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit: auto</text>
+          <rect x="0" y="71" width="129" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LockScale</text>
+          <text x="71.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">PortDimensions</text>
+          <text x="71.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <rect x="0" y="99" width="129" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">VarSizeSig</text>
+          <text x="71.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit</text>
+          <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+          <text x="71.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <rect x="0" y="127" width="129" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalType</text>
+          <text x="71.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">auto</text>
+          <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SamplingMode</text>
+          <text x="71.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">auto</text>
+          <rect x="0" y="0" width="129" height="156" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:9" linkid="Push_Button_EdgeDetection:27:9" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:9">Out</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,650,73)">
+            <path d="M7,0 L23,0 C26.866,0 30,3.13401 30,7 C30,10.866 26.866,14 23,14 L7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip3">
+                <path d="M-60,-28 L60,-28 L60,28 L-60,28 L-60,-28 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip3)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,665,80)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="22" x="-11" xml:space="preserve" y="13.5">1</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,650,73)">
+              <path d="M7,0 L23,0 C26.866,0 30,3.13401 30,7 C30,10.866 26.866,14 23,14 L7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 z" fill-rule="nonzero" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk BlockName">
+            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,665,89)">
+              <path d="M-8.875,0 L8.875,0 L8.875,15 L-8.875,15 L-8.875,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <defs>
+              <clipPath id="clip5">
+                <path d="M-2552.5,-248 L103.5,-248 L103.5,168 L-2552.5,168 L-2552.5,-248 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip5)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,656.125,89)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="63" x="4" xml:space="preserve" y="41">Out</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:8" class="proptable" display="none" pointer-events="none" extent_Height="44" extent_Width="143" preferred_X="555" preferred_Y="58">
+          <rect x="0" y="0" width="143" height="44" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">FunctionName</text>
+          <text x="80.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">sdspboolconv</text>
+          <rect x="0" y="15" width="143" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Parameters</text>
+          <text x="80.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SFunctionModules</text>
+          <text x="80.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">''</text>
+          <rect x="0" y="0" width="143" height="44" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:8" linkid="Push_Button_EdgeDetection:27:8" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:8">Logical Converter</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,455,53)">
+            <path d="M0,0 L95,0 L95,49 L0,49 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip8">
+                <path d="M-188,-72 L192,-72 L192,124 L-188,124 L-188,-72 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip8)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,502,71)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="124" x="-62" xml:space="preserve" y="13.5">Logical</text>
+            </g>
+            <defs>
+              <clipPath id="clip11">
+                <path d="M-188,-120 L192,-120 L192,76 L-188,76 L-188,-120 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip11)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,502,83)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="172" x="-86" xml:space="preserve" y="13.5">Converter</text>
+            </g>
+            <defs>
+              <clipPath id="clip14">
+                <path d="M-12,-48 L368,-48 L368,148 L-12,148 L-12,-48 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip14)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,458,65)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="31" x="0" xml:space="preserve" y="13.5">In</text>
+            </g>
+            <defs>
+              <clipPath id="clip17">
+                <path d="M-12,-148 L368,-148 L368,48 L-12,48 L-12,-148 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip17)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,458,90)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="63" x="0" xml:space="preserve" y="13.5">Ref</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,455,53)">
+              <path d="M0,0 L95,0 L95,49 L0,49 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk BlockName">
+            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,502.5,104)">
+              <path d="M-39.375,0 L39.375,0 L39.375,15 L-39.375,15 L-39.375,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <defs>
+              <clipPath id="clip19">
+                <path d="M-1780.5,-308 L875.5,-308 L875.5,108 L-1780.5,108 L-1780.5,-308 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip19)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,463.125,104)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="307" x="4" xml:space="preserve" y="41">Logical Converter</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,552,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip20">
+              <path d="M-2136,-148 L520,-148 L520,268 L-2136,268 L-2136,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip20)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,552,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:7" class="proptable" display="none" pointer-events="none" extent_Height="86" extent_Width="319.75" preferred_X="420" preferred_Y="34">
+          <rect x="0" y="0" width="319.75" height="86" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Operator</text>
+          <text x="73.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">AND</text>
+          <rect x="0" y="15" width="319.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inputs</text>
+          <text x="73.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">IconShape</text>
+          <text x="73.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">rectangular</text>
+          <rect x="0" y="43" width="319.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">AllPortsSameDT</text>
+          <text x="73.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutDataTypeStr</text>
+          <text x="73.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit: Logical (see Configuration Parameters: Optimization)</text>
+          <rect x="0" y="71" width="319.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+          <text x="73.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <rect x="0" y="0" width="319.75" height="86" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:7" linkid="Push_Button_EdgeDetection:27:7" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:7">Logical Operator1</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,385,29)">
+            <path d="M0,0 L30,0 L30,67 L0,67 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip23">
+                <path d="M-60,-132 L60,-132 L60,136 L-60,136 L-60,-132 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip23)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,400,62)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="85" x="-42.5" xml:space="preserve" y="13.5">AND</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,385,29)">
+              <path d="M0,0 L30,0 L30,67 L0,67 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,417,63)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip25">
+              <path d="M-1596,-88 L1060,-88 L1060,328 L-1596,328 L-1596,-88 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip25)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,417,49)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:6" class="proptable" display="none" pointer-events="none" extent_Height="86" extent_Width="319.75" preferred_X="370" preferred_Y="69">
+          <rect x="0" y="0" width="319.75" height="86" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Operator</text>
+          <text x="73.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">NOT</text>
+          <rect x="0" y="15" width="319.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inputs</text>
+          <text x="73.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">IconShape</text>
+          <text x="73.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">rectangular</text>
+          <rect x="0" y="43" width="319.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">AllPortsSameDT</text>
+          <text x="73.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutDataTypeStr</text>
+          <text x="73.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit: Logical (see Configuration Parameters: Optimization)</text>
+          <rect x="0" y="71" width="319.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+          <text x="73.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <rect x="0" y="0" width="319.75" height="86" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:6" linkid="Push_Button_EdgeDetection:27:6" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:6">Logical Operator</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,335,64)">
+            <path d="M0,0 L30,0 L30,32 L0,32 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip28">
+                <path d="M-60,-64 L60,-64 L60,64 L-60,64 L-60,-64 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip28)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,350,80)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="84" x="-42" xml:space="preserve" y="13.5">NOT</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,335,64)">
+              <path d="M0,0 L30,0 L30,32 L0,32 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,367,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip30">
+              <path d="M-1396,-148 L1260,-148 L1260,268 L-1396,268 L-1396,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip30)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,367,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:5" class="proptable" display="none" pointer-events="none" extent_Height="198" extent_Width="301.5" preferred_X="320" preferred_Y="70">
+          <rect x="0" y="0" width="301.5" height="198" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DelayLengthSource</text>
+          <text x="150.25" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Dialog</text>
+          <rect x="0" y="15" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DelayLength</text>
+          <text x="150.25" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">InitialConditionSource</text>
+          <text x="150.25" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Dialog</text>
+          <rect x="0" y="43" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">InitialCondition</text>
+          <text x="150.25" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ExternalReset</text>
+          <text x="150.25" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">None</text>
+          <rect x="0" y="71" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ShowEnablePort</text>
+          <text x="150.25" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">InputProcessing</text>
+          <text x="150.25" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Columns as channels (frame based)</text>
+          <rect x="0" y="99" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UseCircularBuffer</text>
+          <text x="150.25" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+          <text x="150.25" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <rect x="0" y="127" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StateName</text>
+          <text x="150.25" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+          <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StateMustResolveToSignalObject</text>
+          <text x="150.25" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <rect x="0" y="155" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StateSignalObject</text>
+          <text x="150.25" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[ ]</text>
+          <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StateStorageClass</text>
+          <text x="150.25" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+          <rect x="0" y="183" width="301.5" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="194" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">CodeGenStateStorageTypeQualifier</text>
+          <text x="150.25" y="194" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+          <rect x="0" y="0" width="301.5" height="198" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:5" linkid="Push_Button_EdgeDetection:27:5" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:5">Delay</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,270,65)">
+            <path d="M0,0 L45,0 L45,30 L0,30 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip33">
+                <path d="M-56,-60 L124,-60 L124,60 L-56,60 L-56,-60 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip33)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,284,80)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="24" x="0" xml:space="preserve" y="13.5">Z</text>
+            </g>
+            <defs>
+              <clipPath id="clip36">
+                <path d="M-80,-40 L100,-40 L100,80 L-80,80 L-80,-40 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip36)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,290,75)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="35" x="0" xml:space="preserve" y="13.5">-1</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,270,65)">
+              <path d="M0,0 L45,0 L45,30 L0,30 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,317,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip38">
+              <path d="M-1196,-148 L1460,-148 L1460,268 L-1196,268 L-1196,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip38)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,317,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:4" class="proptable" display="none" pointer-events="none" extent_Height="114" extent_Width="222.25" preferred_X="230" preferred_Y="71">
+          <rect x="0" y="0" width="222.25" height="114" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMin</text>
+          <text x="116" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+          <rect x="0" y="15" width="222.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMax</text>
+          <text x="116" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutDataTypeStr</text>
+          <text x="116" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">boolean</text>
+          <rect x="0" y="43" width="222.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LockScale</text>
+          <text x="116" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">ConvertRealWorld</text>
+          <text x="116" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Real World Value (RWV)</text>
+          <rect x="0" y="71" width="222.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RndMeth</text>
+          <text x="116" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Zero</text>
+          <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SaturateOnIntegerOverflow</text>
+          <text x="116" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">on</text>
+          <rect x="0" y="99" width="222.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+          <text x="116" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <rect x="0" y="0" width="222.25" height="114" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:4" linkid="Push_Button_EdgeDetection:27:4" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:4">Data Type Conversion</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,170,66)">
+            <path d="M0,0 L55,0 L55,28 L0,28 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip41">
+                <path d="M-108,-56 L112,-56 L112,56 L-108,56 L-108,-56 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip41)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,197,80)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="139" x="-69.5" xml:space="preserve" y="13.5">boolean</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,170,66)">
+              <path d="M0,0 L55,0 L55,28 L0,28 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,227,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip43">
+              <path d="M-836,-148 L1820,-148 L1820,268 L-836,268 L-836,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip43)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,227,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:3" class="proptable" display="none" pointer-events="none" extent_Height="100" extent_Width="208.75" preferred_X="635" preferred_Y="64">
+          <rect x="0" y="0" width="208.75" height="100" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SigAttribCheckMethod</text>
+          <text x="98.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Matches attributes exactly</text>
+          <rect x="0" y="15" width="208.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Complexity</text>
+          <text x="98.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Frame</text>
+          <text x="98.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <rect x="0" y="43" width="208.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DimsCheckMethod</text>
+          <text x="98.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DatatypeCheckMethod</text>
+          <text x="98.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Is...</text>
+          <rect x="0" y="71" width="208.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DatatypeGeneral</text>
+          <text x="98.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Enumerated</text>
+          <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleMode</text>
+          <text x="98.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <rect x="0" y="0" width="208.75" height="100" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:3" linkid="Push_Button_EdgeDetection:27:3" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:3">Check Signal Attributes1</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,570,59)">
+            <path d="M0,0 L60,0 L60,42 L0,42 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip46">
+                <path d="M-120,-60 L120,-60 L120,108 L-120,108 L-120,-60 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip46)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,600,74)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="231" x="-115.5" xml:space="preserve" y="13.5">Check Signal</text>
+            </g>
+            <defs>
+              <clipPath id="clip49">
+                <path d="M-120,-108 L120,-108 L120,60 L-120,60 L-120,-108 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip49)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,600,86)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="174" x="-87" xml:space="preserve" y="13.5"> Attributes</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,570,59)">
+              <path d="M0,0 L60,0 L60,42 L0,42 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk BlockName">
+            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,600,103)">
+              <path d="M-29.875,0 L29.875,0 L29.875,28 L-29.875,28 L-29.875,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <defs>
+              <clipPath id="clip51">
+                <path d="M-2208.5,-304 L447.5,-304 L447.5,112 L-2208.5,112 L-2208.5,-304 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip51)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,570.125,103)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="231" x="4" xml:space="preserve" y="41">Check Signal</text>
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="187" x="26" xml:space="preserve" y="93">Attributes1</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,632,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip52">
+              <path d="M-2456,-148 L200,-148 L200,268 L-2456,268 L-2456,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip52)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,632,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:2" class="proptable" display="none" pointer-events="none" extent_Height="100" extent_Width="208.75" preferred_X="145" preferred_Y="64">
+          <rect x="0" y="0" width="208.75" height="100" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SigAttribCheckMethod</text>
+          <text x="98.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Matches attributes exactly</text>
+          <rect x="0" y="15" width="208.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Complexity</text>
+          <text x="98.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Frame</text>
+          <text x="98.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <rect x="0" y="43" width="208.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DimsCheckMethod</text>
+          <text x="98.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DatatypeCheckMethod</text>
+          <text x="98.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Is...</text>
+          <rect x="0" y="71" width="208.75" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DatatypeGeneral</text>
+          <text x="98.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Enumerated</text>
+          <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleMode</text>
+          <text x="98.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Ignore</text>
+          <rect x="0" y="0" width="208.75" height="100" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:2" linkid="Push_Button_EdgeDetection:27:2" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:2">Check Signal Attributes</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,70,59)">
+            <path d="M0,0 L70,0 L70,42 L0,42 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip55">
+                <path d="M-140,-60 L140,-60 L140,108 L-140,108 L-140,-60 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip55)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,105,74)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="231" x="-115.5" xml:space="preserve" y="13.5">Check Signal</text>
+            </g>
+            <defs>
+              <clipPath id="clip58">
+                <path d="M-140,-108 L140,-108 L140,60 L-140,60 L-140,-108 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip58)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,105,86)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="174" x="-87" xml:space="preserve" y="13.5"> Attributes</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,70,59)">
+              <path d="M0,0 L70,0 L70,42 L0,42 L0,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk BlockName">
+            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,105,103)">
+              <path d="M-29.875,0 L29.875,0 L29.875,28 L-29.875,28 L-29.875,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <defs>
+              <clipPath id="clip60">
+                <path d="M-228.5,-304 L2427.5,-304 L2427.5,112 L-228.5,112 L-228.5,-304 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip60)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,75.125,103)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="231" x="4" xml:space="preserve" y="41">Check Signal</text>
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="165" x="37" xml:space="preserve" y="93">Attributes</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,142,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip61">
+              <path d="M-496,-148 L2160,-148 L2160,268 L-496,268 L-496,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip61)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,142,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g data-tags="blk">
+        <!--RAWSTRING-->
+        <g id="prop.Push_Button_EdgeDetection:27:1" class="proptable" display="none" pointer-events="none" extent_Height="198" extent_Width="188.25" preferred_X="55" preferred_Y="78">
+          <rect x="0" y="0" width="188.25" height="198" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+          <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Port</text>
+          <text x="131" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">1</text>
+          <rect x="0" y="15" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">IconDisplay</text>
+          <text x="131" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Port number</text>
+          <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutputFunctionCall</text>
+          <text x="131" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <rect x="0" y="43" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMin</text>
+          <text x="131" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+          <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutMax</text>
+          <text x="131" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">[]</text>
+          <rect x="0" y="71" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">OutDataTypeStr</text>
+          <text x="131" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit: auto</text>
+          <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LockScale</text>
+          <text x="131" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <rect x="0" y="99" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">PortDimensions</text>
+          <text x="131" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">VarSizeSig</text>
+          <text x="131" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Inherit</text>
+          <rect x="0" y="127" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SampleTime</text>
+          <text x="131" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+          <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalType</text>
+          <text x="131" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">auto</text>
+          <rect x="0" y="155" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SamplingMode</text>
+          <text x="131" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">auto</text>
+          <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LatchByDelayingOutsideSignal</text>
+          <text x="131" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <rect x="0" y="183" width="188.25" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+          <text x="3" y="194" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">LatchInputForFeedbackSignals</text>
+          <text x="131" y="194" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+          <rect x="0" y="0" width="188.25" height="198" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+        </g>
+        <g id="Push_Button_EdgeDetection:27:1" linkid="Push_Button_EdgeDetection:27:1" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill">
+          <title id="title.Push_Button_EdgeDetection:27:1">In</title>
+          <g clip-path="none" fill="#ffffff" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,20,73)">
+            <path d="M7,0 L23,0 C26.866,0 30,3.13401 30,7 C30,10.866 26.866,14 23,14 L7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk">
+            <defs>
+              <clipPath id="clip64">
+                <path d="M-60,-28 L60,-28 L60,28 L-60,28 L-60,-28 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip64)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,35,80)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="22" x="-11" xml:space="preserve" y="13.5">1</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk frame">
+            <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,20,73)">
+              <path d="M7,0 L23,0 C26.866,0 30,3.13401 30,7 C30,10.866 26.866,14 23,14 L7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 z" fill-rule="nonzero" vector-effect="none"/>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <!--RAWSTRING-->
+          <g data-tags="blk BlockName">
+            <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,35,89)">
+              <path d="M-4.875,0 L4.875,0 L4.875,15 L-4.875,15 L-4.875,0 z" fill-rule="evenodd" vector-effect="none"/>
+            </g>
+            <defs>
+              <clipPath id="clip66">
+                <path d="M-48.5,-248 L2607.5,-248 L2607.5,168 L-48.5,168 L-48.5,-248 z"/>
+              </clipPath>
+            </defs>
+            <g clip-path="url(#clip66)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,30.125,89)">
+              <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="40" font-style="normal" font-weight="400" stroke="none" textLength="31" x="4" xml:space="preserve" y="41">In</text>
+            </g>
+            <!--RAWSTRING-->
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,52,78)">
+            <path d="M0,-14 L47.5,-14 L47.5,0 L0,0 L0,-14 z" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <defs>
+            <clipPath id="clip67">
+              <path d="M-136,-148 L2520,-148 L2520,268 L-136,268 L-136,-148 z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#clip67)" fill="none" opacity="1" stroke="#e60000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="1" stroke-width="1" transform="matrix(0.25,0,0,0.25,52,64)">
+            <text fill="#e60000" fill-opacity="1" font-family="Arial" font-size="36" font-style="normal" font-weight="400" stroke="none" textLength="182" x="4" xml:space="preserve" y="38">boolean D1</text>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_31" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_31" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_31"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,650,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M630,80 L635,80 L642,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_32" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_32" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_32"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M140,80 L150,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,170,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M150,80 L162,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,455,90)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M150,80 L150,120 L435,120 L435,90 L447,90" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,150,80)">
+          <path d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z" fill-rule="evenodd" vector-effect="none"/>
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_33" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_33" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_33"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,570,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M550,80 L555,80 L562,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_34" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_34" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_34"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,70,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M50,80 L55,80 L62,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_35" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_35" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_35"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,335,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M315,80 L320,80 L327,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_36" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_36" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_36"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M225,80 L245,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,270,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M245,80 L262,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,385,45)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M245,80 L245,45 L377,45" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,245,80)">
+          <path d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z" fill-rule="evenodd" vector-effect="none"/>
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_37" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_37" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_37"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,385,80)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M365,80 L370,80 L377,80" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+      <g id="prop.Push_Button_EdgeDetection/Edge Detector_uniq_id_38" class="proptable" display="none" pointer-events="none" extent_Height="184" extent_Width="195" preferred_X="5" preferred_Y="5">
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="none" fill="rgb(100%,100%,100%)"/>
+        <text x="3" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLogging</text>
+        <text x="120.75" y="12" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="15" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingNameMode</text>
+        <text x="120.75" y="26" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Use signal name</text>
+        <text x="3" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">UserSpecifiedLogName</text>
+        <text x="120.75" y="40" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="43" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimateData</text>
+        <text x="120.75" y="54" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <text x="3" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingDecimation</text>
+        <text x="120.75" y="68" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">2</text>
+        <rect x="0" y="71" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingSampleTime</text>
+        <text x="120.75" y="82" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">-1</text>
+        <text x="3" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingLimitDataPoints</text>
+        <text x="120.75" y="96" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="99" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">DataLoggingMaxPoints</text>
+        <text x="120.75" y="110" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">5000</text>
+        <text x="3" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">TestPoint</text>
+        <text x="120.75" y="124" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="127" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">SignalPropagation</text>
+        <text x="120.75" y="138" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">off</text>
+        <text x="3" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">MustResolveToSignalObject</text>
+        <text x="120.75" y="152" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">0</text>
+        <rect x="0" y="155" width="195" height="14" stroke="none" fill="rgb(90.2%,90.2%,90.2%)"/>
+        <text x="3" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">StorageClass</text>
+        <text x="120.75" y="166" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">Auto</text>
+        <text x="3" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9">RTWStorageTypeQualifier</text>
+        <text x="120.75" y="180" fill="rgb(0%,0%,0%)" stroke="none" font-family="Helvetica" font-size="9"/>
+        <rect x="0" y="0" width="195" height="184" rx="4" ry="4" stroke="rgb(0%,0%,0%)" fill="none"/>
+      </g>
+      <g id="Push_Button_EdgeDetection/Edge Detector_uniq_id_38" linkid="Push_Button_EdgeDetection/Edge Detector" onmouseover="showPropAndHighlight(evt)" onmouseout="hidePropAndUnhighlight(evt)" onclick="changeSys(evt)" highlight="fill,stroke">
+        <title id="title.Push_Button_EdgeDetection/Edge Detector_uniq_id_38"/>
+        <!--RAWSTRING-->
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g clip-path="none" fill="#e60000" fill-opacity="1" opacity="1" stroke="none" stroke-opacity="0" transform="matrix(1,0,0,1,455,65)">
+            <path d="M0,0 L-8,-4 L-8,4 L0,0 z" fill-rule="nonzero" vector-effect="none"/>
+          </g>
+          <g clip-path="none" fill="none" opacity="1" stroke="#e60000" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" stroke-opacity="1" stroke-width="1" transform="matrix(1,0,0,1,0,0)">
+            <path d="M415,65 L447,65" fill-rule="evenodd" vector-effect="none"/>
+          </g>
+          <!--RAWSTRING-->
+        </g>
+        <!--RAWSTRING-->
+      </g>
+      <!--RAWSTRING-->
+    </g>
+  </g>
+</svg>

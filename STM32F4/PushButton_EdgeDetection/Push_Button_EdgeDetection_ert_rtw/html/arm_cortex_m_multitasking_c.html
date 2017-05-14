@@ -1,0 +1,84 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>RTW Report - arm_cortex_m_multitasking.c</title>
+<style> .LN { font-style: italic; color: #888888 } </style>
+<style> .CT { font-style: italic; color: #117755 } </style>
+<style> .PP { font-style: bold;   color: #992211 } </style>
+<style> .KW { font-style: bold;   color: #112266 } </style>
+<style> .DT { font-style: bold;   color: #112266 } </style>
+<link rel="stylesheet" type="text/css" href="rtwreport.css"></link><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script>
+<SCRIPT type="text/javascript" language="JavaScript" src="slwebview.js"></SCRIPT>
+<SCRIPT type="text/javascript" language="JavaScript" src="id_mapping.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="rtwannotate.js"></SCRIPT>
+</head>
+<body bgcolor="#eeeeee" text="#1122aa" onload="try {if (top) { if (top.rtwFileOnLoad) top.rtwFileOnLoad(window.document); else local_onload();}} catch(err) {};if (typeof rtwannotate === 'function') {rtwannotate('arm_cortex_m_multitasking_c_cov.xml');}">
+<p>
+<table border="0" cellspacing="0" cellpadding="6" width="100%%" height="100%%"><tr><td width="100%%" valign="top" bgcolor="#ffffff">
+<h4>File: <a href="../arm_cortex_m_multitasking.c" target="rtwreport_document_frame" id="linkToText_plain">arm_cortex_m_multitasking.c</a></h4>
+<pre id="RTWcode">
+<span><a class="LN" name="1">    1   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;Push_Button_EdgeDetection.h&quot;</font>
+</span><span><a class="LN" name="2">    2   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;mw_force_no_optimization.h&quot;</font>
+</span><span><a class="LN" name="3">    3   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;arm_cortex_m_multitasking.h&quot;</font>
+</span><span><a class="LN" name="4">    4   </a><span class="CT">/* Re-entrant function for multi-tasking: arm_cortex_m_call_thread_with_context_switch*/</span>
+</span><span><a class="LN" name="5">    5   </a>
+</span><span><a class="LN" name="6">    6   </a>__attribute__ ((naked)) <span class="DT">void</span> <a name="fcn_arm_cortex_m_call_thread_with_context_switch">arm_cortex_m_call_thread_with_context_switch</a>(<span class="DT">void</span> (* isr_routine_ptr)(<span class="DT">void</span>)) <b>{</b>
+</span><span><a class="LN" name="7">    7   </a><font color="#992211">#</font><span class="PP">if</span> (<span class="PP">defined</span>(__FPU_PRESENT) &amp;&amp; (__FPU_PRESENT == 1)) &amp;&amp; (<span class="PP">defined</span>(__FPU_USED) &amp;&amp; (__FPU_USED == 1))
+</span><span><a class="LN" name="8">    8   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     TST  LR, #0x10&quot;</font>);
+</span><span><a class="LN" name="9">    9   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     IT EQ&quot;</font>);
+</span><span><a class="LN" name="10">   10   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     VMOVEQ S0, S0&quot;</font>);
+</span><span><a class="LN" name="11">   11   </a><font color="#992211">#</font><span class="PP">endif</span>
+</span><span><a class="LN" name="12">   12   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     PUSH {R0, R1}&quot;</font>);
+</span><span><a class="LN" name="13">   13   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     SUB SP, SP, #0x20&quot;</font>);
+</span><span><a class="LN" name="14">   14   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ADR R0,Call_isr_routine_in_thread_mode&quot;</font>);
+</span><span><a class="LN" name="15">   15   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     STR R0,[SP, #24]&quot;</font>);
+</span><span><a class="LN" name="16">   16   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     MOV R0,#0x01000000&quot;</font>);
+</span><span><a class="LN" name="17">   17   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     STR R0,[SP, #28]&quot;</font>);
+</span><span><a class="LN" name="18">   18   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     MVNS R0,#0x6&quot;</font>);
+</span><span><a class="LN" name="19">   19   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     MOV LR, R0&quot;</font>);
+</span><span><a class="LN" name="20">   20   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     BX LR&quot;</font>);
+</span><span><a class="LN" name="21">   21   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;Call_isr_routine_in_thread_mode:&quot;</font>);
+</span><span><a class="LN" name="22">   22   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     POP {R0, R1}&quot;</font>);
+</span><span><a class="LN" name="23">   23   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     BLX R0&quot;</font>);
+</span><span><a class="LN" name="24">   24   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ISB&quot;</font>);
+</span><span><a class="LN" name="25">   25   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     SVC #0&quot;</font>);
+</span><span><a class="LN" name="26">   26   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;Unknown_Execution:&quot;</font>);
+</span><span><a class="LN" name="27">   27   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     B Unknown_Execution&quot;</font>);
+</span><span><a class="LN" name="28">   28   </a><b>}</b>
+</span><span><a class="LN" name="29">   29   </a><span class="CT">/* SVC Interrupt service routine to restore the context: SVC_Handler*/</span>
+</span><span><a class="LN" name="30">   30   </a>
+</span><span><a class="LN" name="31">   31   </a>__attribute__ ((naked)) <span class="DT">void</span> <a name="fcn_SVC_Handler">SVC_Handler</a>(<span class="DT">void</span>) <b>{</b>
+</span><span><a class="LN" name="32">   32   </a><font color="#992211">#</font><span class="PP">if</span> (<span class="PP">defined</span>(__FPU_PRESENT) &amp;&amp; (__FPU_PRESENT == 1)) &amp;&amp; (<span class="PP">defined</span>(__FPU_USED) &amp;&amp; (__FPU_USED == 1))
+</span><span><a class="LN" name="33">   33   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     TST  LR, #0x10&quot;</font>);
+</span><span><a class="LN" name="34">   34   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     IT EQ&quot;</font>);
+</span><span><a class="LN" name="35">   35   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     VMOVEQ S0, S0&quot;</font>);
+</span><span><a class="LN" name="36">   36   </a><font color="#992211">#</font><span class="PP">endif</span>
+</span><span><a class="LN" name="37">   37   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     TST LR, #0x4&quot;</font>);
+</span><span><a class="LN" name="38">   38   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ITE EQ&quot;</font>);
+</span><span><a class="LN" name="39">   39   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     MRSEQ R0, MSP&quot;</font>);
+</span><span><a class="LN" name="40">   40   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     MRSNE R0, PSP&quot;</font>);
+</span><span><a class="LN" name="41">   41   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     LDR R1, [R0, #24]&quot;</font>);
+</span><span><a class="LN" name="42">   42   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     LDRB.W R0, [R1, #-2]&quot;</font>);
+</span><span><a class="LN" name="43">   43   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     CBZ R0, svc_service_0&quot;</font>);
+</span><span><a class="LN" name="44">   44   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     B Unknown_SVC_Request&quot;</font>);
+</span><span><a class="LN" name="45">   45   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;svc_service_0:&quot;</font>);
+</span><span><a class="LN" name="46">   46   </a><font color="#992211">#</font><span class="PP">if</span> (<span class="PP">defined</span>(__FPU_PRESENT) &amp;&amp; (__FPU_PRESENT == 1)) &amp;&amp; (<span class="PP">defined</span>(__FPU_USED) &amp;&amp; (__FPU_USED == 1))
+</span><span><a class="LN" name="47">   47   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     TST LR, #0x10&quot;</font>);
+</span><span><a class="LN" name="48">   48   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ITE EQ&quot;</font>);
+</span><span><a class="LN" name="49">   49   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ADDEQ SP, SP, #104&quot;</font>);
+</span><span><a class="LN" name="50">   50   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ADDNE SP, SP, #32&quot;</font>);
+</span><span><a class="LN" name="51">   51   </a><font color="#992211">#</font><span class="PP">else</span>
+</span><span><a class="LN" name="52">   52   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     ADD SP, SP, #32&quot;</font>);
+</span><span><a class="LN" name="53">   53   </a><font color="#992211">#</font><span class="PP">endif</span>
+</span><span><a class="LN" name="54">   54   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     POP {R0, R1}&quot;</font>);
+</span><span><a class="LN" name="55">   55   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     MSR APSR_nzcvq, R0&quot;</font>);
+</span><span><a class="LN" name="56">   56   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     BX R1&quot;</font>);
+</span><span><a class="LN" name="57">   57   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;Unknown_SVC_Request:&quot;</font>);
+</span><span><a class="LN" name="58">   58   </a>     __asm <span class="DT">volatile</span> (<font color="#1122ff">&quot;     B Unknown_SVC_Request&quot;</font>);
+</span><span><a class="LN" name="59">   59   </a><b>}</b>
+</span><span><a class="LN" name="60">   60   </a>
+</span></pre>
+</td></tr></table>
+</p>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>RTW Report - Push_Button_EdgeDetection.h</title>
+<style> .LN { font-style: italic; color: #888888 } </style>
+<style> .CT { font-style: italic; color: #117755 } </style>
+<style> .PP { font-style: bold;   color: #992211 } </style>
+<style> .KW { font-style: bold;   color: #112266 } </style>
+<style> .DT { font-style: bold;   color: #112266 } </style>
+<link rel="stylesheet" type="text/css" href="rtwreport.css"></link><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script>
+<SCRIPT type="text/javascript" language="JavaScript" src="slwebview.js"></SCRIPT>
+<SCRIPT type="text/javascript" language="JavaScript" src="id_mapping.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="rtwannotate.js"></SCRIPT>
+</head>
+<body bgcolor="#eeeeee" text="#1122aa" onload="try {if (top) { if (top.rtwFileOnLoad) top.rtwFileOnLoad(window.document); else local_onload();}} catch(err) {};if (typeof rtwannotate === 'function') {rtwannotate('Push_Button_EdgeDetection_h_cov.xml');}">
+<p>
+<table border="0" cellspacing="0" cellpadding="6" width="100%%" height="100%%"><tr><td width="100%%" valign="top" bgcolor="#ffffff">
+<h4>File: <a href="../Push_Button_EdgeDetection.h" target="rtwreport_document_frame" id="linkToText_plain">Push_Button_EdgeDetection.h</a></h4>
+<pre id="RTWcode">
+<span><a class="LN" name="1">    1   </a><span class="CT">/*</span>
+</span><span><a class="LN" name="2">    2   </a><span class="CT"> * File: Push_Button_EdgeDetection.h</span>
+</span><span><a class="LN" name="3">    3   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="4">    4   </a><span class="CT"> * Code generated for Simulink model 'Push_Button_EdgeDetection'.</span>
+</span><span><a class="LN" name="5">    5   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="6">    6   </a><span class="CT"> * Model version                  : 1.21</span>
+</span><span><a class="LN" name="7">    7   </a><span class="CT"> * Simulink Coder version         : 8.9 (R2015b) 13-Aug-2015</span>
+</span><span><a class="LN" name="8">    8   </a><span class="CT"> * C/C++ source code generated on : Sun May 14 15:38:40 2017</span>
+</span><span><a class="LN" name="9">    9   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="10">   10   </a><span class="CT"> * Target selection: ert.tlc</span>
+</span><span><a class="LN" name="11">   11   </a><span class="CT"> * Embedded hardware selection: ARM Compatible-&gt;ARM Cortex</span>
+</span><span><a class="LN" name="12">   12   </a><span class="CT"> * Code generation objectives: Unspecified</span>
+</span><span><a class="LN" name="13">   13   </a><span class="CT"> * Validation result: Not run</span>
+</span><span><a class="LN" name="14">   14   </a><span class="CT"> */</span>
+</span><span><a class="LN" name="15">   15   </a>
+</span><span><a class="LN" name="16">   16   </a><font color="#992211">#</font><span class="PP">ifndef</span> RTW_HEADER_Push_Button_EdgeDetection_h_
+</span><span><a class="LN" name="17">   17   </a><font color="#992211">#</font><span class="PP">define</span> RTW_HEADER_Push_Button_EdgeDetection_h_
+</span><span><a class="LN" name="18">   18   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&lt;stddef.h&gt;</font>
+</span><span><a class="LN" name="19">   19   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&lt;string.h&gt;</font>
+</span><span><a class="LN" name="20">   20   </a><font color="#992211">#</font><span class="PP">ifndef</span> Push_Button_EdgeDetection_COMMON_INCLUDES_
+</span><span><a class="LN" name="21">   21   </a><font color="#992211">#</font> <span class="PP">define</span> Push_Button_EdgeDetection_COMMON_INCLUDES_
+</span><span><a class="LN" name="22">   22   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;rtwtypes.h&quot;</font>
+</span><span><a class="LN" name="23">   23   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;stm32f4discovery_wrapper.h&quot;</font>
+</span><span><a class="LN" name="24">   24   </a><font color="#992211">#</font><span class="PP">endif</span>                                 <span class="CT">/* Push_Button_EdgeDetection_COMMON_INCLUDES_ */</span>
+</span><span><a class="LN" name="25">   25   </a>
+</span><span><a class="LN" name="26">   26   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;Push_Button_EdgeDetection_types.h&quot;</font>
+</span><span><a class="LN" name="27">   27   </a><font color="#992211">#</font><span class="PP">include</span> <font color="#992211">&quot;MW_target_hardware_resources.h&quot;</font>
+</span><span><a class="LN" name="28">   28   </a>
+</span><span><a class="LN" name="29">   29   </a><span class="CT">/* Macros for accessing real-time model data structure */</span>
+</span><span><a class="LN" name="30">   30   </a><font color="#992211">#</font><span class="PP">ifndef</span> rtmGetErrorStatus
+</span><span><a class="LN" name="31">   31   </a><font color="#992211">#</font> <span class="PP">define</span> rtmGetErrorStatus(rtm)        ((rtm)-&gt;errorStatus)
+</span><span><a class="LN" name="32">   32   </a><font color="#992211">#</font><span class="PP">endif</span>
+</span><span><a class="LN" name="33">   33   </a>
+</span><span><a class="LN" name="34">   34   </a><font color="#992211">#</font><span class="PP">ifndef</span> rtmSetErrorStatus
+</span><span><a class="LN" name="35">   35   </a><font color="#992211">#</font> <span class="PP">define</span> rtmSetErrorStatus(rtm, val)   ((rtm)-&gt;errorStatus = (val))
+</span><span><a class="LN" name="36">   36   </a><font color="#992211">#</font><span class="PP">endif</span>
+</span><span><a class="LN" name="37">   37   </a>
+</span><span><a class="LN" name="38">   38   </a><span class="CT">/* Block states (auto storage) for system '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection')" name="code2model"><font color="#117755"><i>&lt;Root&gt;</i></font></a>' */</span>
+</span><span><a class="LN" name="39">   39   </a><span class="KW">typedef</span> <span class="KW">struct</span> <b>{</b>
+</span><span><a class="LN" name="40">   40   </a>  <a href="rtwtypes_h.html#type_boolean_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_boolean_T');" target="_self"><font color="#1122aa">boolean_T</font></a> Delay_DSTATE;              <span class="CT">/* '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:27:5')" name="code2model"><font color="#117755"><i>&lt;S2&gt;/Delay</i></font></a>' */</span>
+</span><span><a class="LN" name="41">   41   </a><b>}</b> <a name="type_DW_Push_Button_EdgeDetection_T">DW_Push_Button_EdgeDetection_T</a>;
+</span><span><a class="LN" name="42">   42   </a>
+</span><span><a class="LN" name="43">   43   </a><span class="CT">/* Parameters (auto storage) */</span>
+</span><span><a class="LN" name="44">   44   </a><span class="KW">struct</span> P_Push_Button_EdgeDetection_T_ <b>{</b>
+</span><span><a class="LN" name="45">   45   </a>  <a href="rtwtypes_h.html#type_uint32_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_uint32_T');" target="_self"><font color="#1122aa">uint32_T</font></a> Delay_DelayLength;          <span class="CT">/* Computed Parameter: Delay_DelayLength</span>
+</span><span><a class="LN" name="46">   46   </a><span class="CT">                                        * Referenced by: '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:27:5')" name="code2model"><font color="#117755"><i>&lt;S2&gt;/Delay</i></font></a>'</span>
+</span><span><a class="LN" name="47">   47   </a><span class="CT">                                        */</span>
+</span><span><a class="LN" name="48">   48   </a>  <a href="rtwtypes_h.html#type_uint8_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_uint8_T');" target="_self"><font color="#1122aa">uint8_T</font></a> DataStoreMemory_InitialValue;<span class="CT">/* Computed Parameter: DataStoreMemory_InitialValue</span>
+</span><span><a class="LN" name="49">   49   </a><span class="CT">                                        * Referenced by: '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:8')" name="code2model"><font color="#117755"><i>&lt;Root&gt;/Data Store Memory</i></font></a>'</span>
+</span><span><a class="LN" name="50">   50   </a><span class="CT">                                        */</span>
+</span><span><a class="LN" name="51">   51   </a>  <a href="rtwtypes_h.html#type_boolean_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_boolean_T');" target="_self"><font color="#1122aa">boolean_T</font></a> Delay_InitialCondition;    <span class="CT">/* Computed Parameter: Delay_InitialCondition</span>
+</span><span><a class="LN" name="52">   52   </a><span class="CT">                                        * Referenced by: '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:27:5')" name="code2model"><font color="#117755"><i>&lt;S2&gt;/Delay</i></font></a>'</span>
+</span><span><a class="LN" name="53">   53   </a><span class="CT">                                        */</span>
+</span><span><a class="LN" name="54">   54   </a><b>}</b>;
+</span><span><a class="LN" name="55">   55   </a>
+</span><span><a class="LN" name="56">   56   </a><span class="CT">/* Real-time Model Data Structure */</span>
+</span><span><a class="LN" name="57">   57   </a><span class="KW">struct</span> tag_RTM_Push_Button_EdgeDetec_T <b>{</b>
+</span><span><a class="LN" name="58">   58   </a>  <span class="DT">const</span> <a href="rtwtypes_h.html#type_char_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_char_T');" target="_self"><font color="#1122aa">char_T</font></a> *errorStatus;
+</span><span><a class="LN" name="59">   59   </a><b>}</b>;
+</span><span><a class="LN" name="60">   60   </a>
+</span><span><a class="LN" name="61">   61   </a><span class="CT">/* Block parameters (auto storage) */</span>
+</span><span><a class="LN" name="62">   62   </a><span class="DT">extern</span> <a href="Push_Button_EdgeDetection_types_h.html#type_P_Push_Button_EdgeDetection_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_P_Push_Button_EdgeDetection_T');" target="_self"><font color="#1122aa">P_Push_Button_EdgeDetection_T</font></a> <a href="Push_Button_EdgeDetection_data_c.html#var_Push_Button_EdgeDetection_P" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Push_Button_EdgeDetection_P');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_P</font></a>;
+</span><span><a class="LN" name="63">   63   </a>
+</span><span><a class="LN" name="64">   64   </a><span class="CT">/* Block states (auto storage) */</span>
+</span><span><a class="LN" name="65">   65   </a><span class="DT">extern</span> <a href="#type_DW_Push_Button_EdgeDetection_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_DW_Push_Button_EdgeDetection_T');" target="_self"><font color="#1122aa">DW_Push_Button_EdgeDetection_T</font></a> <a href="Push_Button_EdgeDetection_c.html#var_Push_Button_EdgeDetection_DW" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Push_Button_EdgeDetection_DW');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_DW</font></a>;
+</span><span><a class="LN" name="66">   66   </a>
+</span><span><a class="LN" name="67">   67   </a><span class="CT">/*</span>
+</span><span><a class="LN" name="68">   68   </a><span class="CT"> * Exported States</span>
+</span><span><a class="LN" name="69">   69   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="70">   70   </a><span class="CT"> * Note: Exported states are block states with an exported global</span>
+</span><span><a class="LN" name="71">   71   </a><span class="CT"> * storage class designation.  Code generation will declare the memory for these</span>
+</span><span><a class="LN" name="72">   72   </a><span class="CT"> * states and exports their symbols.</span>
+</span><span><a class="LN" name="73">   73   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="74">   74   </a><span class="CT"> */</span>
+</span><span><a class="LN" name="75">   75   </a><span class="DT">extern</span> <a href="rtwtypes_h.html#type_uint8_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_uint8_T');" target="_self"><font color="#1122aa">uint8_T</font></a> <a href="Push_Button_EdgeDetection_c.html#var_Button_Press_Count" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Button_Press_Count');" target="_self"><font color="#1122aa">Button_Press_Count</font></a>;     <span class="CT">/* '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:8')" name="code2model"><font color="#117755"><i>&lt;Root&gt;/Data Store Memory</i></font></a>' */</span>
+</span><span><a class="LN" name="76">   76   </a>
+</span><span><a class="LN" name="77">   77   </a><span class="CT">/* Model entry point functions */</span>
+</span><span><a class="LN" name="78">   78   </a><span class="DT">extern</span> <span class="DT">void</span> <a href="Push_Button_EdgeDetection_c.html#fcn_Push_Button_EdgeDetection_initialize" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_Push_Button_EdgeDetection_initialize');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_initialize</font></a>(<span class="DT">void</span>);
+</span><span><a class="LN" name="79">   79   </a><span class="DT">extern</span> <span class="DT">void</span> <a href="Push_Button_EdgeDetection_c.html#fcn_Push_Button_EdgeDetection_step" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_Push_Button_EdgeDetection_step');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_step</font></a>(<span class="DT">void</span>);
+</span><span><a class="LN" name="80">   80   </a><span class="DT">extern</span> <span class="DT">void</span> <a href="Push_Button_EdgeDetection_c.html#fcn_Push_Button_EdgeDetection_terminate" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'fcn_Push_Button_EdgeDetection_terminate');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_terminate</font></a>(<span class="DT">void</span>);
+</span><span><a class="LN" name="81">   81   </a>
+</span><span><a class="LN" name="82">   82   </a><span class="CT">/* Real-time Model object */</span>
+</span><span><a class="LN" name="83">   83   </a><span class="DT">extern</span> <a href="Push_Button_EdgeDetection_types_h.html#type_RT_MODEL_Push_Button_EdgeDete_T" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'type_RT_MODEL_Push_Button_EdgeDete_T');" target="_self"><font color="#1122aa">RT_MODEL_Push_Button_EdgeDete_T</font></a> *<span class="DT">const</span> <a href="Push_Button_EdgeDetection_c.html#var_Push_Button_EdgeDetection_M" onclick="if (top) if (top.docHiliteMe) top.docHiliteMe(window, 'var_Push_Button_EdgeDetection_M');" target="_self"><font color="#1122aa">Push_Button_EdgeDetection_M</font></a>;
+</span><span><a class="LN" name="84">   84   </a>
+</span><span><a class="LN" name="85">   85   </a><span class="CT">/*-</span>
+</span><span><a class="LN" name="86">   86   </a><span class="CT"> * The generated code includes comments that allow you to trace directly</span>
+</span><span><a class="LN" name="87">   87   </a><span class="CT"> * back to the appropriate location in the model.  The basic format</span>
+</span><span><a class="LN" name="88">   88   </a><span class="CT"> * is &lt;system&gt;/block_name, where system is the system number (uniquely</span>
+</span><span><a class="LN" name="89">   89   </a><span class="CT"> * assigned by Simulink) and block_name is the name of the block.</span>
+</span><span><a class="LN" name="90">   90   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="91">   91   </a><span class="CT"> * Use the MATLAB hilite_system command to trace the generated code back</span>
+</span><span><a class="LN" name="92">   92   </a><span class="CT"> * to the model.  For example,</span>
+</span><span><a class="LN" name="93">   93   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="94">   94   </a><span class="CT"> * hilite_system('&lt;S3&gt;')    - opens system 3</span>
+</span><span><a class="LN" name="95">   95   </a><span class="CT"> * hilite_system('&lt;S3&gt;/Kp') - opens and selects block Kp which resides in S3</span>
+</span><span><a class="LN" name="96">   96   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="97">   97   </a><span class="CT"> * Here is the system hierarchy for this model</span>
+</span><span><a class="LN" name="98">   98   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="99">   99   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection')" name="code2model"><font color="#117755"><i>&lt;Root&gt;</i></font></a>' : 'Push_Button_EdgeDetection'</span>
+</span><span><a class="LN" name="100">  100   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:41')" name="code2model"><font color="#117755"><i>&lt;S1&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract'</span>
+</span><span><a class="LN" name="101">  101   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:27')" name="code2model"><font color="#117755"><i>&lt;S2&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/Edge Detector'</span>
+</span><span><a class="LN" name="102">  102   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:68')" name="code2model"><font color="#117755"><i>&lt;S3&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits'</span>
+</span><span><a class="LN" name="103">  103   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:69')" name="code2model"><font color="#117755"><i>&lt;S4&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits1'</span>
+</span><span><a class="LN" name="104">  104   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:80')" name="code2model"><font color="#117755"><i>&lt;S5&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits10'</span>
+</span><span><a class="LN" name="105">  105   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:81')" name="code2model"><font color="#117755"><i>&lt;S6&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits11'</span>
+</span><span><a class="LN" name="106">  106   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:82')" name="code2model"><font color="#117755"><i>&lt;S7&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits12'</span>
+</span><span><a class="LN" name="107">  107   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:83')" name="code2model"><font color="#117755"><i>&lt;S8&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits13'</span>
+</span><span><a class="LN" name="108">  108   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:70')" name="code2model"><font color="#117755"><i>&lt;S9&gt;</i></font></a>'   : 'Push_Button_EdgeDetection/BitExtract/Extract Bits2'</span>
+</span><span><a class="LN" name="109">  109   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:73')" name="code2model"><font color="#117755"><i>&lt;S10&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits3'</span>
+</span><span><a class="LN" name="110">  110   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:74')" name="code2model"><font color="#117755"><i>&lt;S11&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits4'</span>
+</span><span><a class="LN" name="111">  111   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:75')" name="code2model"><font color="#117755"><i>&lt;S12&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits5'</span>
+</span><span><a class="LN" name="112">  112   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:76')" name="code2model"><font color="#117755"><i>&lt;S13&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits6'</span>
+</span><span><a class="LN" name="113">  113   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:77')" name="code2model"><font color="#117755"><i>&lt;S14&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits7'</span>
+</span><span><a class="LN" name="114">  114   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:78')" name="code2model"><font color="#117755"><i>&lt;S15&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits8'</span>
+</span><span><a class="LN" name="115">  115   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:79')" name="code2model"><font color="#117755"><i>&lt;S16&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/BitExtract/Extract Bits9'</span>
+</span><span><a class="LN" name="116">  116   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:27:2')" name="code2model"><font color="#117755"><i>&lt;S17&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/Edge Detector/Check Signal Attributes'</span>
+</span><span><a class="LN" name="117">  117   </a><span class="CT"> * '<a href="matlab:coder.internal.code2model('Push_Button_EdgeDetection:27:3')" name="code2model"><font color="#117755"><i>&lt;S18&gt;</i></font></a>'  : 'Push_Button_EdgeDetection/Edge Detector/Check Signal Attributes1'</span>
+</span><span><a class="LN" name="118">  118   </a><span class="CT"> */</span>
+</span><span><a class="LN" name="119">  119   </a><font color="#992211">#</font><span class="PP">endif</span>                                 <span class="CT">/* RTW_HEADER_Push_Button_EdgeDetection_h_ */</span>
+</span><span><a class="LN" name="120">  120   </a>
+</span><span><a class="LN" name="121">  121   </a><span class="CT">/*</span>
+</span><span><a class="LN" name="122">  122   </a><span class="CT"> * File trailer for generated code.</span>
+</span><span><a class="LN" name="123">  123   </a><span class="CT"> *</span>
+</span><span><a class="LN" name="124">  124   </a><span class="CT"> * [EOF]</span>
+</span><span><a class="LN" name="125">  125   </a><span class="CT"> */</span>
+</span><span><a class="LN" name="126">  126   </a>
+</span></pre>
+</td></tr></table>
+</p>
+</body>
+</html>

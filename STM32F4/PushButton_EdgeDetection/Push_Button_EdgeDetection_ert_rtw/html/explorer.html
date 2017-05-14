@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel= "stylesheet" href="explorer_files/dtree.css" type="text/css" />
+    <script type="text/javascript" src="explorer_files/dtree.js"></script>
+    <script type="text/javascript" src="slwebview.js"></script>
+    <script type="text/javascript" src="id_mapping.js"></script>
+    <title>Simulink Web View</title>
+  </head>
+  <body leftmargin="3"  topmargin="0" marginwidth="3" marginheight="3">
+    <script type="text/javascript">
+<!--
+var explorer = new dTree('explorer');
+explorer.add(0,-1,"Simulink Root","javascript:toggleExpose();","Simulink Root","Push_Button_EdgeDetection_slwebview_model");
+explorer.add(1,0,"Push_Button_EdgeDetection","javascript:changeSysByName('Push_Button_EdgeDetection',1);","Push_Button_EdgeDetection","Push_Button_EdgeDetection_slwebview_model","explorer_files/SimulinkModelIcon.png","explorer_files/SimulinkModelIcon.png",1);
+explorer.add(2,1,"BitExtract","javascript:changeSysByName('Push_Button_EdgeDetection:41',1);","Push_Button_EdgeDetection:41","Push_Button_EdgeDetection_slwebview_model","explorer_files/SubSystemIcon.gif","explorer_files/SubSystemIcon.gif",0);
+explorer.add(3,1,"Edge Detector","javascript:changeSysByName('Push_Button_EdgeDetection:27',1);","Push_Button_EdgeDetection:27","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(4,2,"Extract Bits","javascript:changeSysByName('Push_Button_EdgeDetection:68',1);","Push_Button_EdgeDetection:68","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(5,2,"Extract Bits1","javascript:changeSysByName('Push_Button_EdgeDetection:69',1);","Push_Button_EdgeDetection:69","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(6,2,"Extract Bits10","javascript:changeSysByName('Push_Button_EdgeDetection:80',1);","Push_Button_EdgeDetection:80","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(7,2,"Extract Bits11","javascript:changeSysByName('Push_Button_EdgeDetection:81',1);","Push_Button_EdgeDetection:81","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(8,2,"Extract Bits12","javascript:changeSysByName('Push_Button_EdgeDetection:82',1);","Push_Button_EdgeDetection:82","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(9,2,"Extract Bits13","javascript:changeSysByName('Push_Button_EdgeDetection:83',1);","Push_Button_EdgeDetection:83","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(10,2,"Extract Bits2","javascript:changeSysByName('Push_Button_EdgeDetection:70',1);","Push_Button_EdgeDetection:70","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(11,2,"Extract Bits3","javascript:changeSysByName('Push_Button_EdgeDetection:73',1);","Push_Button_EdgeDetection:73","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(12,2,"Extract Bits4","javascript:changeSysByName('Push_Button_EdgeDetection:74',1);","Push_Button_EdgeDetection:74","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(13,2,"Extract Bits5","javascript:changeSysByName('Push_Button_EdgeDetection:75',1);","Push_Button_EdgeDetection:75","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(14,2,"Extract Bits6","javascript:changeSysByName('Push_Button_EdgeDetection:76',1);","Push_Button_EdgeDetection:76","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(15,2,"Extract Bits7","javascript:changeSysByName('Push_Button_EdgeDetection:77',1);","Push_Button_EdgeDetection:77","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(16,2,"Extract Bits8","javascript:changeSysByName('Push_Button_EdgeDetection:78',1);","Push_Button_EdgeDetection:78","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(17,2,"Extract Bits9","javascript:changeSysByName('Push_Button_EdgeDetection:79',1);","Push_Button_EdgeDetection:79","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(18,3,"Check Signal Attributes","javascript:changeSysByName('Push_Button_EdgeDetection:27:2',1);","Push_Button_EdgeDetection:27:2","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+explorer.add(19,3,"Check Signal Attributes1","javascript:changeSysByName('Push_Button_EdgeDetection:27:3',1);","Push_Button_EdgeDetection:27:3","Push_Button_EdgeDetection_slwebview_model","explorer_files/MaskedSubsystemIcon.gif","explorer_files/MaskedSubsystemIcon.gif",0);
+var svgState = getSvgState(gHomeSys);
+svgState.tree = explorer;
+document.write(svgState.tree);
+//-->
+    </script>
+  </body>
+</html>
+
